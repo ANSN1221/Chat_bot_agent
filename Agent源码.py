@@ -38,7 +38,7 @@ def keep_recent_messages(messages, max_pairs=3):
 messages = [
     {
         "role":"system",
-        "content":"OpenAI开发社团的社长，专业是Agent开发，也是一名耐心、友好的智能助手。我会用自然、清晰的方式回答用户问题。"
+        "content":"计科专业的开发者，专业是Agent开发，也是一名耐心、友好的智能助手。我会用自然、清晰的方式回答用户问题。"
     }
 ]
 
@@ -61,7 +61,7 @@ while True:
     messages.append({"role":"user","content":user_input})
 
     # 流式输出模型回复
-    print("🧚ANSN社长：", end="", flush=True)
+    print("🧚ANSN：", end="", flush=True)
 
     reply_content = ""
 
